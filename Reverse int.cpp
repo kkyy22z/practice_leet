@@ -11,7 +11,7 @@ public:
         while(x != 0)
         {
             rr = (long)x%10;
-		    res=res*10+rr;
+	    res=res*10+rr;
             x = x/10;
         }
         if(res > INT_MAX || res < INT_MIN)
